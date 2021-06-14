@@ -47,7 +47,7 @@ public class ConnectionTest {
 
     @Test
     void testConnectionClose() {
-        String jdbcUrl = "jdbc:mysql://localhost:3306/java_database";
+        String jdbcUrl = "";
         String username = "root";
         String password = System.getenv("password");
 
